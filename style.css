@@ -288,15 +288,33 @@ button:focus {
 } */
 
 
-.demo-card-square.mdl-card {
+.card-square.mdl-card {
   width: 320px;
   height: 350px;
 }
 .demo-card-square > .mdl-card__title {
   color: #fff;
   background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+	url('./assets/sdfs') bottom right 15% no-repeat #46B6AC;
+	background-position: center;
+	background-size: cover;
 }
+
+.card-three > .mdl-card__title {
+	color: #fff;
+	background:
+	  url('./assets/Yasas.jpeg') bottom right 15% no-repeat #46B6AC;
+	  background-position: center;
+	  background-size: cover;
+  }
+
+  .card-one > .mdl-card__title {
+	color: #fff;
+	background:
+	  url('./assets/Dulangi.jpg') bottom right 15% no-repeat #46B6AC;
+	  background-position: center;
+	  background-size: cover;
+  }
 
 
 .imgcls01{
@@ -1783,6 +1801,11 @@ canvas {
 
 
 @media (max-width: 480px) {
+	.card-square{
+
+		margin-left: 0%;
+		
+	}
 
 	body {
 		font-size: 14px;
