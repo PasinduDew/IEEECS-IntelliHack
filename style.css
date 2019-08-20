@@ -316,6 +316,38 @@ button:focus {
 	  background-size: cover;
   }
 
+  .card-two > .mdl-card__title {
+	color: #fff;
+	background:
+	  url('./assets/Chethani_b.jpg') bottom right 15% no-repeat #46B6AC;
+	  background-position: center;
+	  background-size: cover;
+  }
+
+  .eventSummary{
+
+	
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+  }
+
+  .chipEventSummary{
+	width: 100%;
+	margin-top: 10px;
+	
+  }
+
+  .mu-single-contact {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	overflow: hidden;
+}
+
 
 .imgcls01{
 	margin-bottom: 50px;
@@ -413,6 +445,541 @@ button:focus {
 
 	
 }
+
+@media screen and (max-width: 411px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 13%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 414px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 0%;
+		padding-right: 0px;
+		margin: 5px 0px 5px 10px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+@media screen and (max-width: 411px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 13%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 768px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #ecdd0c; */
+		left: 0%;
+		padding-left: 10%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+@media screen and (max-width: 411px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 13%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 760px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #ec0c0c; */
+		left: 0%;
+		padding-left: 10%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+@media screen and (max-width: 411px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 13%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+
+
+@media screen and (max-width: 411px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 13%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 360px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #ec0c0c; */
+		left: 0%;
+		padding-left: 8%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+@media screen and (max-width: 411px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #000000; */
+		left: 0%;
+		padding-left: 13%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 375px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #0655ff; */
+		left: 0%;
+		padding-left: 9%;
+		padding-right: 0px;
+		margin: 5px;
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+@media screen and (max-width: 320px){
+
+	.clock{
+		display: inline;
+		position: absolute;
+		align-self: center;
+		width: 400px;
+		/* background-color: #fff; */
+		opacity: 0;
+		margin: 10px auto;
+		animation: shine-clock 5s linear 0s 1 forwards;
+			
+	}
+
+	.flip-clock-divider.minutes{
+		visibility: hidden;
+		
+		margin-left: 0px;
+	}
+
+	.flip-clock-divider.seconds{
+
+		margin-left: 0px;
+	}
+
+	.clock.flip-clock-wrapper{
+		/* background-color: #0d702e; */
+		left: 0%;
+		padding-left: 0%;
+		padding-right: 0px;
+		margin: 0px 0px 0px 8px;
+		
+		width: 100%;
+	}
+
+	.demo-card-square.mdl-card {
+		width: 320px;
+		height: 350px;
+		margin: 50px;
+	}
+
+	
+}
+
+
+
+
 
 @keyframes shine-clock{
 	from {opacity: 0;}
@@ -1585,8 +2152,19 @@ canvas {
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
-@media (max-width: 1199px) {
+@media (max-width: 2145px){
 
+	.about-event{
+		margin-top: -40px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.about-event{
+		margin-top: -40px;
+	}
+
+	
 	.mu-register-content {
 		padding: 0 150px;
 	}
@@ -1613,6 +2191,10 @@ canvas {
 }
 
 @media (max-width: 991px) {	
+	
+	.about-event{
+		margin-top: 0px;
+	}
 
 	.mu-primary-btn {
 		font-size: 14px;
@@ -1736,6 +2318,10 @@ canvas {
 
 @media (max-width: 767px) {
 
+	.about-event{
+		margin-top: 0px;
+	}
+
 	.mu-logo img {
 		width: 150px;
 	}
@@ -1762,6 +2348,12 @@ canvas {
 
 
 @media (max-width: 640px){
+
+	.about-event{
+		margin-top: 0px;
+	}
+
+
 	
 	.mu-event-counter-block {
 		height: 100px;
@@ -1803,7 +2395,8 @@ canvas {
 @media (max-width: 480px) {
 	.card-square{
 
-		margin-left: 0%;
+		margin-left: 0px;
+		margin-right: 0px;
 		
 	}
 
