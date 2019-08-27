@@ -234,14 +234,93 @@ button:focus {
 	background-size: cover;
 }
 
+.btnLeft{
+
+}
+
+.btnRight{
+
+
+}
+
+
+.btnGrp{
+
+	width: 100%;
+	
+	/* background-color: #00356b; */
+}
+
+.btnRules{
+
+	color: white;
+	border-radius: 50px;
+	/* border: 2px solid white; */
+	/* background-color: #ff740a; */
+	background-color: transparent;
+	border: 2px solid white;
+	width:200px;
+	height: 50px;
+	margin: 25px;
+	/* transition: .5s all ease-in-out; */
+	
+}
+
+.btnRules:hover{
+	background-color: #ff740a;
+	border: none;
+
+}
+
+
+
 
 .btnReg{
 
+	color: white;
 	border-radius: 50px;
 	background-color: #ff740a;
-	width:150px;
+	/* border: 2px solid white; */
+	width: 200px;
 	height: 50px;
+	margin: 25px;
+
 }
+
+.btnReg-anim{
+
+	color: white;
+	animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+	box-shadow: 0 0 0 0 white;
+	border-radius: 50px;
+	background-color: transparent;
+	border: 2px solid white;
+	width: 200px;
+	height: 50px;
+	margin: 25px;
+
+}
+
+@keyframes pulse {
+	to {
+	  box-shadow: 0 0 0 18px rgba(255, 255, 255, 0); 
+	}
+  }
+
+.btnReg-anim:hover{
+
+	background-color: #ff740a;
+	border: none;
+	/* animation-play-state: paused; */
+	
+}
+
+/* .btnReg:hover{
+
+	background-color: #ff740a;
+	border: none;
+	
+} */
 
 .chevanim:hover{
 
@@ -323,6 +402,10 @@ button:focus {
 	  background-position: center;
 	  background-size: cover;
   }
+
+
+
+
 
   .eventSummary{
 
