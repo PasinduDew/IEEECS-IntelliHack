@@ -1308,6 +1308,14 @@ canvas {
 	width: 100%;
 }
 
+.mu-title-area-a {
+	display: inline;
+	float: left;
+	/* text-align: center; */
+	padding: 0 120px;
+	width: 100%;
+}
+
 .mu-title {
 	color: #1c1b1b;
 	margin-bottom: 15px;
@@ -1978,6 +1986,23 @@ canvas {
 	margin-bottom: 15px;
 	width: 100%;
 }
+
+div.polaroid {
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -20px;
+  padding: 20px;
+}
+
+
+div.polaroid-no-padding {
+	width: 100%;
+	background-color: #3B5998;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: -20px;
+	padding: 0px;
+  }
 
 
 /*--------------------*/
