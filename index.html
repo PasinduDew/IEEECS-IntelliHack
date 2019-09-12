@@ -65,6 +65,22 @@
   </head>
   <body>
 
+		<div id="myModal" class="modal fade" style="margin-top: 100px;">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" style="text-align: center;"><strong>IntelliHack 2k19 has been Postponed</strong></h4>
+						</div>
+						<div class="modal-body" style="text-align: center;">
+							<p>IntelliHack 2k19 has been postponed until further notice, due to circumstances beyond our control. We'll inform you the dates as soon as they are available. Keep in touch with us.</p>
+							<p>Thank You.</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
 		
   	
   	<div>
@@ -146,7 +162,7 @@
 								<!-- Flip Clock -->
 								<div class="outtershell">
 
-									<div class="clock"></div>
+									<!-- <div class="clock"></div> -->
 								</div>
 
 
@@ -1072,7 +1088,11 @@
 </script>
 <!-- Particle Button Effect Ends Here -->
 
-	
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
 	
     
   </body>
